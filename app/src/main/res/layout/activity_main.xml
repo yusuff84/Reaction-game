@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/bg_main_sub_png"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="300dp"
+
+        android:src="@drawable/bg_main_sub_png"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:id="@+id/start_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/game_name_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Reaction games"
+                android:textColor="@color/black_95"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/btn_stroke_blak_press"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/start"
+                android:textColor="@color/black_95"
+                android:textSize="34dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

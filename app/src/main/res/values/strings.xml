@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reactuin Game</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="back_shape">></string>
+    <string name="game">Игра</string>
+    <string name="game_name1">Найди число</string>
+    <string name="text_continue">Продолжить</string>
+</resources>
